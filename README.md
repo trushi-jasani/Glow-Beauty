@@ -26,22 +26,26 @@ Glow Beauty is a **modern cosmetic store website** that allows users to:
 
 ## 📸 Preview
 
+## 📸 Preview
+
 <p align="center">
-  <img src="home page.png
-" alt="Home Page Screenshot" width="80%"/>
+  <img src="home page.png" alt="Home Page Screenshot" width="80%">
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Login+Page" alt="Login Page Screenshot" width="45%"/>
-  <img src="https://via.placeholder.com/800x400.png?text=Signup+Page" alt="Signup Page Screenshot" width="45%"/>
+  <img src="log in.png" alt="Login Page Screenshot" width="45%">
+  <img src="sign up.png" alt="Signup Page Screenshot" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Products+Page" alt="Products Page Screenshot" width="45%"/>
-  <img src="https://via.placeholder.com/800x400.png?text=Contact+Page" alt="Contact Page Screenshot" width="45%"/>
+  <img src="product details.png" alt="Products Page Screenshot" width="45%">
+  <img src="contact page.png" alt="Contact Page Screenshot" width="45%">
 </p>
 
-> 🖼️ Replace these placeholder links with your actual screenshots (upload them to GitHub or an image hosting site like **Imgur**).
+<p align="center">
+  <img src="services page.png" alt="Services Page Screenshot" width="60%">
+</p>
+
 
 ---
 
