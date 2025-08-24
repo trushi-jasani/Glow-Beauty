@@ -27,7 +27,8 @@ Glow Beauty is a **modern cosmetic store website** that allows users to:
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Glow+Beauty+Home+Page" alt="Home Page Screenshot" width="80%"/>
+  <img src="home page.png
+" alt="Home Page Screenshot" width="80%"/>
 </p>
 
 <p align="center">
