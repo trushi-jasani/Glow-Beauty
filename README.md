@@ -5,12 +5,7 @@
   <br> <b>HTML5, CSS3, and JavaScript</b>.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Responsive-Yes-brightgreen?style=flat" />
-</p>
+
 
 ---
 
@@ -26,7 +21,6 @@ Glow Beauty is a **modern cosmetic store website** that allows users to:
 
 ## 📸 Preview
 
-## 📸 Preview
 
 <p align="center">
   <img src="home page.png" alt="Home Page Screenshot" width="80%">
