@@ -30,20 +30,33 @@ A **responsive and elegant cosmetic store website** built with **HTML5, CSS3, an
 
 ```
 Glow-Beauty/
-├── README.md
-├── index.html
-├── aboutus.html
-├── products.html
-├── style.css
+├── css/
+│   ├── pstyle.css
+│   ├── style.css
+│   ├── style1.css
+│   ├── style2.css
+│   ├── style3.css
+│   └── style4.css
+│
+├── html/
+│   ├── aboutus.html
+│   ├── contact.html
+│   ├── index.html
+│   ├── products.html
+│   ├── services.html
+│   └── signup.html
+│
 └── images/
     ├── background.jpg
+    ├── contact page.png
     ├── home page.png
     ├── log in.png
-    ├── sign up.png
     ├── product details.png
+    ├── Screenshot 2025-08-24 151431.png
     ├── services page.png
-    └── contact page.png
+    └── sign up.png
 ```
+
 
 ---
 
@@ -81,5 +94,5 @@ Glow-Beauty/
 ## 📧 Contact  
 
 💁‍♀️ **Author:** Trushi Jasani  
-📩 **Email:** your-email@example.com  
+📩 **Email:** jasanitrushi@gmail.com  
 🔗 **GitHub:** [trushi-jasani](https://github.com/trushi-jasani)  
