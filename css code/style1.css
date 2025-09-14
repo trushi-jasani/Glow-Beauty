@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://t3.ftcdn.net/jpg/02/45/13/78/360_F_245137894_v2TUM15iRQAMsNpI2v84bkxWhU2fRDoD.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: rgba(18, 17, 17, 0.858);
+    color: #FFCFDA;
+    padding: 15px; /* Reduced padding */
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px; /* Slightly smaller font */
+}
+
+/* Centering the Form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-in Box - Reduced Height */
+
+.form-box {
+    background-color: rgba(18, 17, 17, 0.806);
+    padding: 20px; /* Reduced padding to decrease height */
+    box-shadow: 0px 4px 10px rgba(24, 24, 24, 0.979);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Keeping width the same */
+}
+
+/* Reduce Heading Size */
+h2 {
+    text-align: center;
+    font-size: 24px; /* Smaller heading */
+    color:white;
+    margin-bottom: 10px; /* Less space below heading */
+}
+
+/* Labels */
+label {
+    font-size: 14px; /* Smaller label text */
+    color: white;
+    margin-bottom: 3px;
+    display: block;
+}
+
+/* Reduce Input Field Spacing */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px; /* Slightly smaller input fields */
+    font-size: 14px; /* Keep readable */
+    margin-bottom: 10px; /* Reduce space between inputs */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Submit Button - Pink Color */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ff80c0; /* Pink color */
+    color: rgb(250, 248, 249);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color: #e670a3; /* Slightly darker pink for hover */
+}
+
+
+/* Reduce Space Below Text */
+p {
+    text-align: center;
+    color :rgb(251, 249, 251);
+    font-size: 12px;
+    margin-top: 8px; /* Less space above the sign-up link */
+}
+
+/* Sign-up Link */
+a {
+    color: #ff80c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

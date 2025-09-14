@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://t3.ftcdn.net/jpg/02/45/13/78/360_F_245137894_v2TUM15iRQAMsNpI2v84bkxWhU2fRDoD.jpg') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Container */
+.container {
+    background: rgba(18, 17, 17, 0.806); /* Semi-transparent white */
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgb(239, 238, 238);
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    color: #fd96c9;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f9f5f5;
+    /* display: block → Makes labels appear on their own line.
+    text-align: left → Aligns labels to the left.
+    font-weight: bold → Makes labels stand out.
+    color: #f9f5f5 → Light gray for readability on dark background */
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    width: 106%;
+    padding: 10px;
+    background: #fd96c9;
+    color: rgb(239, 234, 234);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+    /* width: 106% → Makes the button slightly wider than the container for emphasis.
+    background: #fd96c9 → Pink color matching the brand.
+    color: rgb(239, 234, 234) → Light text for contrast.
+    cursor: pointer → Changes cursor to a hand on hover.
+    transition: background 0.3s → Smooth color change on hover.
+    hover effect → Darkens the button when hovered. */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #f95fac;
+}
+
+/* Sign-up Link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #f9f5f5;
+}
+
+p a {
+    color: #fd96c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

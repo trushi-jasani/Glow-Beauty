@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--(sets width to device width, initial zoom to 1.0) -->
+    <title>Sign In - Glow Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Links to external CSS file for styling -->
+</head>
+<!-- Standard HTML5 document declaration
+Sets the language to English
+Defines character encoding (UTF-8 for Unicode support)
+Title that appears in browser tab
+-->
+<body>
+    <div class="container">
+        <!-- Generic container for grouping and styling content -->
+        <h2>Login</h2>
+        <!-- second heading -->
+        <form id="loginForm">
+            <!-- Container for the login form elements -->
+            <label for="username">Username:</label>
+            <!-- for attribute associates each label with its input -->
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <!-- placeholder - Shows example text inside empty fields -->
+            <button type="submit">Login</button>
+        </form>
+        
+        <p>Don't have an account? <a href="signup.html">Sign up here</a></p> <!-- Sign Up link -->
+    </div>
+<!-- Creates a container div for the login form
+Both fields are marked as "required" (HTML5 validation) -->
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username !== "" && /^\d{6}$/.test(password)) {
+                alert("Login Successful!");
+                window.location.href = "aboutus.html"; // Redirect to another page
+            } else {
+                alert("Invalid Username or Password!");
+            }
+        });
+    </script>
+    <!-- Gets the values from username and password fields
+Validates that:
+Username is not empty (username !== "")
+Password is exactly 6 digits (/^\d{6}$/ regex test)
+If validation passes:
+Shows "Login Successful!" alert
+Redirects to aboutus.html
+If validation fails:
+Shows "Invalid Username or Password!" alert -->
+</body>
+</html>
+<!-- Document Structure: Creates the basic HTML framework
+Metadata: Helps browsers properly render and index the page
+Content Structure: Organizes and presents the visible content
+Form Elements: Collects user input and enables submission
+Navigation: Provides user flow to related pages
+Scripting: Adds interactivity and client-side validation -->
